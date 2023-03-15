@@ -1,3 +1,15 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "root": true,
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "@next/next/no-html-link-for-pages": ["error", "./src/app/"],
+    "react-hooks/exhaustive-deps": "off",
+    "max-len": [
+      "error",
+      { "ignoreTemplateLiterals": true, "ignoreStrings": true, "code": 150 }
+    ]
+  }
 }
