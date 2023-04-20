@@ -1,11 +1,16 @@
+import React from 'react';
+import { Header } from '@components/header/header.comp';
+
 export default function Home() {
   return (
     <main>
-      home page <br/>
-      home page <br/>
-      home page <br/>
-      home page <br/>
-      home page <br/>
+      <div />
+      <Header />
+      home page <br />
+      home page <br />
+      home page <br />
+      home page <br />
+      home page <br />
     </main>
-  )
+  );
 }
