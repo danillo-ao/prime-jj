@@ -5,32 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0405252b-3d2a-4f0e-9721-6dc5958841d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.comp.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/page/page.styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/colors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/fonts.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/media.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/radii.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/space.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/stitches.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/theme.map.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/theme.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/theme.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/theme.units.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/theme.utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/z-indixes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/registry.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/page/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global.styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.husky/pre-push" beforeDir="false" afterPath="$PROJECT_DIR$/.husky/pre-push" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.comp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.comp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page/page.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page/page.styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/theme.map.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/theme.map.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/theme.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/theme.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/theme.units.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/theme.units.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +54,12 @@
     "nodejs_package_manager_path": "yarn",
     "prettierjs.PrettierConfiguration.Package": "/home/danillo/development/projects/site-prime-jj/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/home/danillo/development/projects/site-prime-jj/node_modules/typescript/lib"
+    "ts.external.directory.path": "/home/danillo/development/projects/prime-jj/node_modules/typescript/lib"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/about" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/theme" />
       <recent name="$PROJECT_DIR$/src/app/lorem/ipsum" />
@@ -89,6 +80,12 @@
       <workItem from="1681959715878" duration="1242000" />
       <workItem from="1681960964964" duration="330000" />
       <workItem from="1681961299147" duration="401000" />
+      <workItem from="1681998628207" duration="60000" />
+      <workItem from="1682813190498" duration="3668000" />
+      <workItem from="1683041509745" duration="103000" />
+      <workItem from="1683679855721" duration="814000" />
+      <workItem from="1683680938437" duration="550000" />
+      <workItem from="1683681671707" duration="4727000" />
     </task>
     <servers />
   </component>

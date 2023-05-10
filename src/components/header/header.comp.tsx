@@ -1,14 +1,23 @@
 import React from 'react';
 import { HeaderProps } from '@components/header/header.types';
 
+import * as Styles from './header.styles';
+
 const Header: React.FC<HeaderProps> = () => {
   return (
-    <div>
+    <Styles.HeaderContent>
+      <Styles.HeaderBelt>
+        <Styles.HeaderBeltRed>
+          <Styles.HeaderBeltGrade />
+          <Styles.HeaderBeltGrade />
+        </Styles.HeaderBeltRed>
+      </Styles.HeaderBelt>
+
       <div>
         <div />
-        Header
+        <button>Header</button>
       </div>
-    </div>
+    </Styles.HeaderContent>
   );
 };
 

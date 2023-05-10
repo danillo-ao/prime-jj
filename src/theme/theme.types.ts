@@ -10,9 +10,5 @@ export type StitchesFonts = `$${keyof typeof fonts}`;
 export type StitchesFontSizes = `$${keyof typeof fontSizes}`;
 
 export type ThemeUnits = {
-  bottomTabHeight: number;
-  iosStatusBar: number;
-  inputHeight: number;
-  inputBorderRadius: number;
-  screenHeaderHeight: number;
+  headerHeight: string;
 };

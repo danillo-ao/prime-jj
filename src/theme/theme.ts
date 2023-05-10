@@ -1,8 +1,7 @@
-import { createStitches } from 'stitches-native';
+import { createStitches } from '@stitches/react';
+import { themeConfig } from '@theme/stitches.config';
 
-import { themeConfig } from '@theme/theme.config';
-
-const { ThemeProvider, styled, useTheme, theme, config } =
+const { styled, theme, config, globalCss, css, getCssText, keyframes } =
   createStitches(themeConfig);
 
-export { ThemeProvider, theme, styled, useTheme, config };
+export { styled, theme, config, globalCss, css, getCssText, keyframes };

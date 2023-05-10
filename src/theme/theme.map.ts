@@ -1,4 +1,4 @@
-import { defaultThemeMap } from 'stitches-native';
+import { defaultThemeMap } from '@stitches/react';
 
 export const themeMap = {
   ...defaultThemeMap,
