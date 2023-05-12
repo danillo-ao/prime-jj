@@ -1,5 +1,5 @@
 export const colors = {
-  primary: '#146be8',
+  primary: '#01adee',
   secondary: '#31D6D5',
   // background
   background0: '#182432',
@@ -31,7 +31,7 @@ export const colors = {
   grey600: '#4F4F4F',
   grey700: '#363636',
   grey800: '#1C1C1C',
-  grey900: '#000000',
+  grey900: '#1a1a1a',
   // blue
   blue000: '#d8dfe7',
   blue100: '#b3c0d0',
@@ -50,7 +50,7 @@ export const colors = {
   red300: '#ff7b5a',
   red400: '#ff5233',
   red500: '#fe0202',
-  red600: '#d01608',
+  red600: '#da222c',
   red700: '#a41b0c',
   red800: '#7a1b0d',
   red900: '#52180b',

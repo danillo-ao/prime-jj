@@ -1,6 +1,6 @@
 // import { utils } from 'prettier/doc';
 import { colors } from '@theme/colors';
-import { fontSizes, fonts } from '@theme/fonts';
+import { fontSizes, fonts, lineHeights } from '@theme/fonts';
 import { media } from '@theme/media';
 import { radii } from '@theme/radii';
 import { space } from '@theme/space';
@@ -14,6 +14,7 @@ export const themeConfig = {
     colors,
     fonts,
     fontSizes,
+    lineHeights,
     radii,
     space,
     zIndices,

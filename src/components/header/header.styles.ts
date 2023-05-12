@@ -4,38 +4,51 @@ export const HeaderContent = styled('div', {
   width: '100%',
   position: 'relative',
   height: '$units$headerHeight',
-  backgroundColor: '#1a1a1a',
+  backgroundColor: '$grey900',
+  display: 'flex',
 });
 
-export const HeaderBelt = styled('div', {
+export const HeaderInner = styled('div', {
   width: '100%',
-  height: '100%',
-  position: 'absolute',
-  left: 0,
-  top: 0,
   display: 'flex',
   flexDirection: 'row',
+  position: 'relative',
+  alignItems: 'center',
+  justifyContent: 'center',
+  flex: 1,
 });
 
-export const HeaderBeltRed = styled('div', {
-  width: '200px',
-  height: '100%',
+export const HeaderMenuOptions = styled('div', {
   display: 'flex',
+  flex: 1,
   flexDirection: 'row',
-  borderColor: '$white',
-  borderStyle: 'solid',
-  borderWidth: 0,
-  borderRightWidth: '10px',
-  borderLeftWidth: '10px',
-  marginLeft: '10%',
-  backgroundColor: '#da222c',
-  gap: '10px',
-  padding: '0 15px',
+  justifyContent: 'flex-end',
+  gap: '$3',
+  px: '$4',
 });
 
-export const HeaderBeltGrade = styled('div', {
-  width: '7px',
-  height: '100%',
-  display: 'flex',
-  backgroundColor: '#fff',
+export const HeaderMenuOption = styled('button', {
+  textTransform: 'uppercase',
+  py: '$1',
+  px: '$3',
+  cursor: 'pointer',
+  border: 'none',
+  backgroundColor: 'transparent',
+  color: '$white',
+  fontFamily: '$default',
+  fontSize: '$default',
+});
+
+export const HeaderMenuLabel = styled('h1', {
+  textTransform: 'uppercase',
+  fontFamily: '$prime',
+  fontSize: '$8',
+  py: '$1',
+  px: '$3',
+  cursor: 'pointer',
+  color: '$primary',
+  margin: '$0',
+  padding: '$0',
+  lineHeight: '$7-5',
+  pt: '4px',
 });
