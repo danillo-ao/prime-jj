@@ -9,6 +9,7 @@ export const fonts = {
   //
   default: '$roboto',
   prime: 'robofan',
+  title: 'Jost, sans-serif',
 };
 
 export const fontSizes = {

@@ -8,9 +8,10 @@ const BlackBelt: React.FC = () => {
       <Styles.BlackBeltRed>
         <Styles.BlackBeltGrade />
         <Styles.BlackBeltGrade />
+        <Styles.BlackBeltGrade />
       </Styles.BlackBeltRed>
     </Styles.BlackBelt>
   );
 };
 
-export default BlackBelt;
+export { BlackBelt };

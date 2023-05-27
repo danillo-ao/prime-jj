@@ -13,9 +13,11 @@ const Header: React.FC<HeaderProps> = () => {
 
           <Styles.HeaderMenuOptions>
             <Styles.HeaderMenuOption>História</Styles.HeaderMenuOption>
-            <Styles.HeaderMenuOption>Sobre nós</Styles.HeaderMenuOption>
+            <Styles.HeaderMenuOption>Galeria</Styles.HeaderMenuOption>
             <Styles.HeaderMenuOption>Fale Conosco</Styles.HeaderMenuOption>
-            <Styles.HeaderMenuOption>Onde estamos</Styles.HeaderMenuOption>
+            <Styles.HeaderMenuOption>Valores</Styles.HeaderMenuOption>
+            <Styles.HeaderMenuOption>Horários</Styles.HeaderMenuOption>
+            <Styles.HeaderMenuOption>Onde Estamos</Styles.HeaderMenuOption>
           </Styles.HeaderMenuOptions>
         </Styles.HeaderInner>
       </PageWrapper>

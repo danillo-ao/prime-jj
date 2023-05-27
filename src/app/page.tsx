@@ -1,14 +1,6 @@
 import React from 'react';
-import { Page } from '@components/page';
-import { Header } from '@components/header';
+import { HomeScreen } from '@/screens/home';
 
 export default function Home() {
-  return (
-    <Page>
-      <Header />
-      <div />
-      <div />
-      <div />
-    </Page>
-  );
+  return <HomeScreen />;
 }

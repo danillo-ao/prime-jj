@@ -2,10 +2,13 @@ import { styled } from '@theme/theme';
 
 export const HeaderContent = styled('div', {
   width: '100%',
-  position: 'relative',
+  position: 'fixed',
   height: '$units$headerHeight',
   backgroundColor: '$grey900',
   display: 'flex',
+  left: 0,
+  top: 0,
+  zIndex: '$4',
 });
 
 export const HeaderInner = styled('div', {
@@ -16,6 +19,7 @@ export const HeaderInner = styled('div', {
   alignItems: 'center',
   justifyContent: 'center',
   flex: 1,
+  py: '$4',
 });
 
 export const HeaderMenuOptions = styled('div', {
@@ -35,8 +39,13 @@ export const HeaderMenuOption = styled('button', {
   border: 'none',
   backgroundColor: 'transparent',
   color: '$white',
-  fontFamily: '$default',
-  fontSize: '$default',
+  fontFamily: '$title',
+  fontSize: '$2',
+  transition: '0.2s',
+
+  '&:hover': {
+    color: '$primary',
+  },
 });
 
 export const HeaderMenuLabel = styled('h1', {

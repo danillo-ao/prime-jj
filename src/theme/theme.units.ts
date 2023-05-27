@@ -1,5 +1,5 @@
 import { ThemeUnits } from '@theme/theme.types';
 
 export const units: ThemeUnits = {
-  headerHeight: '50px',
+  headerHeight: '60px',
 };
