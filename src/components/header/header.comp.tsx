@@ -12,7 +12,7 @@ const Header: React.FC<HeaderProps> = () => {
           <Styles.HeaderMenuLabel>PRIME</Styles.HeaderMenuLabel>
 
           <Styles.HeaderMenuOptions>
-            <Styles.HeaderMenuOption>História</Styles.HeaderMenuOption>
+            <Styles.HeaderMenuOption>Sobre</Styles.HeaderMenuOption>
             <Styles.HeaderMenuOption>Galeria</Styles.HeaderMenuOption>
             <Styles.HeaderMenuOption>Fale Conosco</Styles.HeaderMenuOption>
             <Styles.HeaderMenuOption>Valores</Styles.HeaderMenuOption>

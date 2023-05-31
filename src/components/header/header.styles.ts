@@ -4,7 +4,6 @@ export const HeaderContent = styled('div', {
   width: '100%',
   position: 'fixed',
   height: '$units$headerHeight',
-  backgroundColor: '$grey900',
   display: 'flex',
   left: 0,
   top: 0,

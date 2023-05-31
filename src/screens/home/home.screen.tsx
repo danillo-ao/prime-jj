@@ -6,11 +6,11 @@ import { BlackBelt } from '@components/black-belt';
 
 import * as Styles from './home.styles';
 import { GallerySection } from '@/screens/home/sections/gallery.section';
-import { HistorySection } from '@/screens/home/sections/history.section';
 import { TalkToUsSection } from '@/screens/home/sections/talk-to-us.section';
 import { ValuesSection } from '@/screens/home/sections/values.section';
 import { ScheduleSection } from '@/screens/home/sections/schedule.section';
 import { LocationSection } from '@/screens/home/sections/location.section';
+import { AboutSection } from '@screens/home/sections/about/about.section';
 
 const HomeScreen: React.FC<HomeScreenProps> = () => {
   return (
@@ -30,7 +30,7 @@ const HomeScreen: React.FC<HomeScreenProps> = () => {
         </Styles.BlackBeltNameWrapper>
       </Styles.BlackBeltContent>
 
-      <HistorySection />
+      <AboutSection />
       <GallerySection />
       <TalkToUsSection />
       <ValuesSection />

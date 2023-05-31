@@ -5,28 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0405252b-3d2a-4f0e-9721-6dc5958841d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/screens/home/home.screen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/home/home.styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/home/home.types.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/home/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/gallery.section.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/history.section.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/location.section.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/schedule.section.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/section.styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/talk-to-us.section.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/values.section.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/icon.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svg/confident.icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svg/defence.icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svg/discipline.icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svg/friends.icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svg/mind.icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svg/muscle.icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/typography/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/typography/typography.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/about/about.section.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/about/about.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/about/components/benefits/benefits.comp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/about/components/benefits/benefits.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/about/components/benefits/benefits.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/about/components/benefits/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/registry.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/registry.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/black-belt/black-belt.comp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/black-belt/black-belt.comp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/black-belt/black-belt.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/black-belt/black-belt.styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.comp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.comp.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page/page.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page/page.styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/home/home.screen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/home/home.screen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/home/sections/history.section.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/home/sections/section.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/home/sections/section.styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/global.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.styles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/theme/fonts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/fonts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/theme.units.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/theme.units.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,25 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/Danillo/development/projects/prime-jj",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "/home/danillo/development/projects/site-prime-jj/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/Users/Danillo/development/projects/prime-jj/node_modules/typescript/lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Danillo/development/projects/prime-jj&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/danillo/development/projects/site-prime-jj/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/Danillo/development/projects/prime-jj/node_modules/typescript/lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
@@ -72,6 +74,8 @@
       <recent name="$PROJECT_DIR$/src/app/lorem/ipsum" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/icons/svg" />
+      <recent name="$PROJECT_DIR$/src/screens/home/sections/about" />
       <recent name="$PROJECT_DIR$/src/screens/home/sections" />
     </key>
   </component>
@@ -97,7 +101,8 @@
       <workItem from="1683681671707" duration="4727000" />
       <workItem from="1683725859020" duration="161000" />
       <workItem from="1683857912063" duration="4561000" />
-      <workItem from="1685153569489" duration="5723000" />
+      <workItem from="1685153569489" duration="6345000" />
+      <workItem from="1685497598600" duration="8406000" />
     </task>
     <servers />
   </component>

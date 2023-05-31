@@ -25,6 +25,7 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
+      "@screens/*": ["./src/screens/*"],
       "@theme/*": ["./src/theme/*"],
       "@components/*": ["./src/components/*"],
       "@styles/*": ["./src/styles/*"],

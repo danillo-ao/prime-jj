@@ -26,6 +26,8 @@ export const fontSizes = {
   11: '48px',
   // aliases
   default: '$3',
+  title: '$7',
+  subtitle: '$3',
   button: '$3',
   input: '$3',
 };
@@ -43,7 +45,7 @@ export const lineHeights = {
   10: '40px',
   11: '48px',
   // aliases
-  default: '$3',
+  default: '$7',
   button: '$3',
   input: '$3',
 };
