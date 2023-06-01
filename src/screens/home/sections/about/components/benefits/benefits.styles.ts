@@ -2,11 +2,10 @@ import { styled } from '@theme/theme';
 
 export const BenefitsCard = styled('div', {
   flexGrow: 1,
-  maxWidth: '33%',
+  width: '100%',
   position: 'relative',
-  display: 'flex',
   flexDirection: 'column',
-  pa: '$5',
+  display: 'flex',
 });
 
 export const BenefitsCardInner = styled('div', {

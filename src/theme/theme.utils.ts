@@ -1,3 +1,6 @@
+import { ThemeColorName } from '@theme/theme.types';
+import { theme } from '@theme/theme';
+
 export const utils = {
   // padding
   pa: (value: any) => ({ padding: value }),
@@ -17,4 +20,8 @@ export const utils = {
   my: (value: any) => ({ marginTop: value, marginBottom: value }),
   // colors
   bg: (value: any) => ({ backgroundColor: value }),
+};
+
+export const getThemeColor = (color: ThemeColorName): string => {
+  return theme.colors[color].value as unknown as string;
 };

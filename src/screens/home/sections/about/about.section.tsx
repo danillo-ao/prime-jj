@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Section,
   SectionGrid,
+  SectionGridDivisor,
   SectionGridItem,
   SectionTitle,
 } from '@screens/home/sections/section.styles';
@@ -20,7 +21,7 @@ import FriendsIcon from '@components/icons/svg/friends.icon';
 const AboutSection = () => {
   return (
     <PageWrapper>
-      <Section>
+      <Section css={{ pt: 70 }}>
         <SectionGrid css={{ mb: '80px' }}>
           <SectionGridItem>
             <SectionTitle css={{ textAlign: 'left', mb: '$4' }}>
@@ -42,11 +43,12 @@ const AboutSection = () => {
               maneira de preservar a tradição e a história dessa arte milenar.
             </Typography>
           </SectionGridItem>
+          <SectionGridDivisor />
           <SectionGridItem />
         </SectionGrid>
 
         <SectionTitle css={{ textAlign: 'left', mb: '$4' }}>
-          Beneficios do Jiu-jitsu
+          Beneficios
         </SectionTitle>
         <SectionGrid>
           <SectionGridItem>

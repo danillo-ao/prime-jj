@@ -7,7 +7,7 @@ export const HeaderContent = styled('div', {
   display: 'flex',
   left: 0,
   top: 0,
-  zIndex: '$4',
+  zIndex: '$menu',
 });
 
 export const HeaderInner = styled('div', {

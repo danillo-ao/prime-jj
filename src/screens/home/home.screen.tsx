@@ -5,12 +5,12 @@ import { Header } from '@components/header';
 import { BlackBelt } from '@components/black-belt';
 
 import * as Styles from './home.styles';
-import { GallerySection } from '@/screens/home/sections/gallery.section';
 import { TalkToUsSection } from '@/screens/home/sections/talk-to-us.section';
 import { ValuesSection } from '@/screens/home/sections/values.section';
 import { ScheduleSection } from '@/screens/home/sections/schedule.section';
 import { LocationSection } from '@/screens/home/sections/location.section';
 import { AboutSection } from '@screens/home/sections/about/about.section';
+import { GallerySection } from '@screens/home/sections/gallery/gallery.section';
 
 const HomeScreen: React.FC<HomeScreenProps> = () => {
   return (

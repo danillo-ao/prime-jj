@@ -2,7 +2,6 @@ import { styled } from '@theme/theme';
 
 export const Section = styled('section', {
   width: '100%',
-  py: '60px',
 });
 
 export const SectionTitle = styled('h2', {
@@ -38,4 +37,16 @@ export const SectionGridItem = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   flex: 1,
+});
+
+export const SectionGridDivisor = styled('div', {
+  maxWidth: 1,
+  position: 'relative',
+  display: 'flex',
+  flexDirection: 'column',
+  flex: 1,
+  borderRadius: '$pill',
+  bg: '$primary',
+  mx: '$4',
+  opacity: 0.5,
 });
