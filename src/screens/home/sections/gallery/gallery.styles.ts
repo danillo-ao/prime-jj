@@ -8,13 +8,13 @@ export const GallerySection = styled('section', {
   mb: -5,
 });
 
-export const GalleryContent = styled('view', {
+export const GalleryContent = styled('div', {
   width: '100%',
   pt: 60,
   pb: 80,
 });
 
-export const GalleryGrid = styled('view', {
+export const GalleryGrid = styled('div', {
   width: '100%',
   display: 'grid',
   gridTemplateColumns: 'repeat(4, 1fr)',

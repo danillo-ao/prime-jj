@@ -1,7 +1,11 @@
 import React from 'react';
 import { IconProps } from '@components/icons/icon.types';
 
-const MuscleIcon: React.FC<IconProps> = ({ color, width, height }) => {
+const MuscleIcon: React.FC<IconProps> = ({
+  color = '#fff',
+  width = 30,
+  height = 30,
+}) => {
   return (
     <svg width={width} height={height} viewBox="0 0 24 24">
       <path
@@ -15,9 +19,4 @@ const MuscleIcon: React.FC<IconProps> = ({ color, width, height }) => {
   );
 };
 
-MuscleIcon.defaultProps = {
-  width: 30,
-  height: 30,
-  color: '#fff',
-};
 export default MuscleIcon;

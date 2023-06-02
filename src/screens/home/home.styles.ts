@@ -18,8 +18,56 @@ export const HeroSection = styled('section', {
     left: 0,
     top: 0,
     bg: '$grey900',
-    opacity: 0.5,
+    opacity: 0.7,
   },
+});
+
+export const HeroSectionContent = styled('div', {
+  width: '100%',
+  height: '100%',
+  position: 'absolute',
+  left: 0,
+  top: 0,
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  flexDirection: 'column',
+});
+
+export const HeroSectionContentLogos = styled('div', {
+  width: '100%',
+  position: 'relative',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  flexDirection: 'row',
+  gap: '$10',
+});
+
+export const HeroSectionPhrase = styled('p', {
+  width: '100%',
+  maxWidth: 500,
+  position: 'relative',
+  textAlign: 'center',
+  color: '$white',
+  my: '$10',
+  fontSize: '$4',
+});
+
+export const HeroSectionButtons = styled('div', {
+  width: '100%',
+  display: 'flex',
+  flexDirection: 'row',
+  position: 'relative',
+  gap: '$4',
+  alignItems: 'center',
+  justifyContent: 'center',
+});
+
+export const HeroSectionContentLogo = styled('img', {
+  height: 220,
+  objectFit: 'contain',
+  objectPosition: 'center',
 });
 
 export const BlackBeltContent = styled('div', {

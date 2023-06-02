@@ -1,7 +1,11 @@
 import React from 'react';
 import { IconProps } from '@components/icons/icon.types';
 
-const DefenceIcon: React.FC<IconProps> = ({ color, width, height }) => {
+const DefenceIcon: React.FC<IconProps> = ({
+  color = '#fff',
+  width = 30,
+  height = 30,
+}) => {
   return (
     <svg width={width} height={height} viewBox="0 0 24 24" fill="none">
       <path
@@ -14,9 +18,4 @@ const DefenceIcon: React.FC<IconProps> = ({ color, width, height }) => {
   );
 };
 
-DefenceIcon.defaultProps = {
-  width: 30,
-  height: 30,
-  color: '#fff',
-};
 export default DefenceIcon;

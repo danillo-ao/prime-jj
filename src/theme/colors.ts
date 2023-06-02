@@ -6,6 +6,13 @@ export const colors = {
   background1: '#28374d',
   background2: '#324f6a',
   background3: '#47688c',
+  // belts
+  white_belt: '#ffffff',
+  blue_belt: '#1a75bb',
+  purple_belt: '#9c00da',
+  brown_belt: '#603912',
+  black_belt: '#010101',
+
   // common
   success: '#25CF2A',
   error: '#FE0202',

@@ -20,13 +20,11 @@ import FriendsIcon from '@components/icons/svg/friends.icon';
 
 const AboutSection = () => {
   return (
-    <PageWrapper>
-      <Section css={{ pt: 70 }}>
+    <Section css={{ pt: 70, mb: -50 }}>
+      <PageWrapper>
         <SectionGrid css={{ mb: '80px' }}>
           <SectionGridItem>
-            <SectionTitle css={{ textAlign: 'left', mb: '$4' }}>
-              Sobre o jiu jitsu
-            </SectionTitle>
+            <SectionTitle css={{ mb: '$4' }}>Sobre o jiu jitsu</SectionTitle>
             <Typography>
               O Brazilian Jiu-Jitsu (BJJ) é uma forma de arte marcial brasileira
               que se concentra no combate no solo e no uso de alavancas e
@@ -47,9 +45,7 @@ const AboutSection = () => {
           <SectionGridItem />
         </SectionGrid>
 
-        <SectionTitle css={{ textAlign: 'left', mb: '$4' }}>
-          Beneficios
-        </SectionTitle>
+        <SectionTitle css={{ mb: '$4' }}>Beneficios</SectionTitle>
         <SectionGrid>
           <SectionGridItem>
             <Styles.AboutBenefitsCardsWrapper>
@@ -86,8 +82,8 @@ const AboutSection = () => {
             </Styles.AboutBenefitsCardsWrapper>
           </SectionGridItem>
         </SectionGrid>
-      </Section>
-    </PageWrapper>
+      </PageWrapper>
+    </Section>
   );
 };
 

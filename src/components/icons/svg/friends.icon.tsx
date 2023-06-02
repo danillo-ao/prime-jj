@@ -1,7 +1,11 @@
 import React from 'react';
 import { IconProps } from '@components/icons/icon.types';
 
-const FriendsIcon: React.FC<IconProps> = ({ color, width, height }) => {
+const FriendsIcon: React.FC<IconProps> = ({
+  color = '#fff',
+  width = 30,
+  height = 30,
+}) => {
   return (
     <svg
       fill={color}
@@ -52,9 +56,4 @@ const FriendsIcon: React.FC<IconProps> = ({ color, width, height }) => {
   );
 };
 
-FriendsIcon.defaultProps = {
-  width: 30,
-  height: 30,
-  color: '#fff',
-};
 export default FriendsIcon;

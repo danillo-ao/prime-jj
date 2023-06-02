@@ -1,7 +1,11 @@
 import React from 'react';
 import { IconProps } from '@components/icons/icon.types';
 
-const ConfidentIcon: React.FC<IconProps> = ({ color, width, height }) => {
+const ConfidentIcon: React.FC<IconProps> = ({
+  color = '#fff',
+  width = 30,
+  height = 30,
+}) => {
   return (
     <svg height={height} width={width} version="1.1" viewBox="0 0 512 512">
       <g fill={color}>
@@ -34,9 +38,4 @@ const ConfidentIcon: React.FC<IconProps> = ({ color, width, height }) => {
   );
 };
 
-ConfidentIcon.defaultProps = {
-  width: 30,
-  height: 30,
-  color: '#fff',
-};
 export default ConfidentIcon;

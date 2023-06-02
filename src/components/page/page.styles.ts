@@ -11,7 +11,7 @@ export const Page = styled('div', {
 
 export const PageWrapper = styled('div', {
   width: '100%',
-  maxWidth: '1300px',
+  maxWidth: '1230px',
   position: 'relative',
   display: 'flex',
   flexDirection: 'column',

@@ -8,6 +8,9 @@ export const globalStyles = globalCss({
     fontFamily: '$default',
     fontSize: '$default',
   },
+  a: {
+    textDecoration: 'none',
+  },
   body: {
     height: '100%',
     minHeight: '100vh',

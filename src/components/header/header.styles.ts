@@ -8,6 +8,29 @@ export const HeaderContent = styled('div', {
   left: 0,
   top: 0,
   zIndex: '$menu',
+
+  '&:before': {
+    content: '',
+    width: '100%',
+    height: '150%',
+    position: 'absolute',
+    left: 0,
+    top: 0,
+    bg: 'rgb(2,0,36)',
+    background: 'linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(0,0,0,1) 57%)',
+    transition: '0.3s',
+    transform: 'translateY(-100%)',
+  },
+
+  variants: {
+    scrolled: {
+      true: {
+        '&:before': {
+          transform: 'translateY(0)',
+        },
+      },
+    },
+  },
 });
 
 export const HeaderInner = styled('div', {

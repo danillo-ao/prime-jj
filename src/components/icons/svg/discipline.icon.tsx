@@ -1,7 +1,11 @@
 import React from 'react';
 import { IconProps } from '@components/icons/icon.types';
 
-const DisciplineIcon: React.FC<IconProps> = ({ color, width, height }) => {
+const DisciplineIcon: React.FC<IconProps> = ({
+  color = '#fff',
+  width = 30,
+  height = 30,
+}) => {
   return (
     <svg
       fill={color}
@@ -66,9 +70,4 @@ const DisciplineIcon: React.FC<IconProps> = ({ color, width, height }) => {
   );
 };
 
-DisciplineIcon.defaultProps = {
-  width: 30,
-  height: 30,
-  color: '#fff',
-};
 export default DisciplineIcon;

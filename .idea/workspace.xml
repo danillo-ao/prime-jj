@@ -5,27 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0405252b-3d2a-4f0e-9721-6dc5958841d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/belt/belt.comp.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/belt/belt.styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/belt/belt.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/belt/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/waves/linear-bottom.comp.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/waves/linear-top.comp.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/gallery/gallery.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/button.comp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/button.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/button.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svg/facebook.icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svg/instagram.icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/svg/whatsapp.icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/waves/wave-bottom.comp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/waves/wave-top.comp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configs/links.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configs/phrases.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/contact/components/contact-option/contact-option.comp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/contact/components/contact-option/contact-option.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/contact/components/contact-option/contact-option.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/contact/components/contact-option/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/contact/contact.section.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/contact/contact.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/values/components/value-table/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/values/components/value-table/value-table.comp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/values/components/value-table/value-table.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/values/components/value-table/value-table.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/home/sections/values/values.styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/belt/belt.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/belt/belt.styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.comp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.comp.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/svg/confident.icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/svg/confident.icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/svg/defence.icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/svg/defence.icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/svg/discipline.icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/svg/discipline.icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/svg/friends.icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/svg/friends.icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/svg/mind.icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/svg/mind.icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/svg/muscle.icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/svg/muscle.icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page/page.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page/page.styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/home/home.screen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/home/home.screen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/home/home.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/home/home.styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/home/sections/about/about.section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/home/sections/about/about.section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/home/sections/about/about.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/home/sections/about/about.styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/home/sections/about/components/benefits/benefits.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/home/sections/about/components/benefits/benefits.styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/home/sections/gallery.section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/home/sections/gallery/gallery.section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/home/sections/gallery/gallery.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/home/sections/gallery/gallery.styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/home/sections/section.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/home/sections/section.styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/theme.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/theme.types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/theme.utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/theme.utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/z-indixes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/z-indixes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/home/sections/talk-to-us.section.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/home/sections/values.section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/home/sections/values/values.section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/colors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/colors.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +79,24 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "prettierjs.PrettierConfiguration.Package": "/home/danillo/development/projects/site-prime-jj/node_modules/prettier",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "ts.external.directory.path": "/Users/Danillo/development/projects/prime-jj/node_modules/typescript/lib"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/waves" />
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
       <recent name="$PROJECT_DIR$/src/app/about" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/theme" />
-      <recent name="$PROJECT_DIR$/src/app/lorem/ipsum" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/screens/home/sections/values" />
+      <recent name="$PROJECT_DIR$/src/screens/home/sections/contact" />
       <recent name="$PROJECT_DIR$/src/screens/home/sections/gallery" />
       <recent name="$PROJECT_DIR$/src/components/icons/svg" />
       <recent name="$PROJECT_DIR$/src/screens/home/sections/about" />
-      <recent name="$PROJECT_DIR$/src/screens/home/sections" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -102,7 +124,8 @@
       <workItem from="1685153569489" duration="6345000" />
       <workItem from="1685497598600" duration="9047000" />
       <workItem from="1685583171790" duration="6098000" />
-      <workItem from="1685629896320" duration="7955000" />
+      <workItem from="1685629896320" duration="24241000" />
+      <workItem from="1685733107007" duration="5882000" />
     </task>
     <servers />
   </component>

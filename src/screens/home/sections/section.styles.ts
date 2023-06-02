@@ -6,7 +6,7 @@ export const Section = styled('section', {
 
 export const SectionTitle = styled('h2', {
   width: '100%',
-  textAlign: 'center',
+  textAlign: 'left',
   textTransform: 'uppercase',
   color: '$primary',
   fontSize: '$title',

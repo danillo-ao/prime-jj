@@ -1,7 +1,11 @@
 import React from 'react';
 import { IconProps } from '@components/icons/icon.types';
 
-const MindIcon: React.FC<IconProps> = ({ color, width, height }) => {
+const MindIcon: React.FC<IconProps> = ({
+  color = '#fff',
+  width = 30,
+  height = 30,
+}) => {
   return (
     <svg width={width} height={height} viewBox="0 0 24 24">
       <g fill="none" stroke={color} strokeMiterlimit={10} strokeWidth={1.91}>
@@ -24,9 +28,4 @@ const MindIcon: React.FC<IconProps> = ({ color, width, height }) => {
   );
 };
 
-MindIcon.defaultProps = {
-  width: 30,
-  height: 30,
-  color: '#fff',
-};
 export default MindIcon;

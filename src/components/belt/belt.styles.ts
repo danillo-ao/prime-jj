@@ -1,11 +1,10 @@
 import { styled } from '@theme/theme';
 
 export const BeltContent = styled('div', {
-  width: 100,
-  height: 25,
+  width: '100%',
+  height: '100%',
   bg: '$white',
-  borderRadius: '$1',
-  px: '$3',
+  py: '$3',
 
   variants: {
     belt: {
@@ -19,8 +18,8 @@ export const BeltContent = styled('div', {
 });
 
 export const BeltForeground = styled('div', {
-  width: 45,
-  height: 25,
+  width: '100%',
+  height: 35,
   bg: '$black',
 
   variants: {
@@ -31,10 +30,10 @@ export const BeltForeground = styled('div', {
       brown: { border: 'none' },
       black: {
         bg: '$red500',
-        borderTopWidth: 0,
-        borderBottomWidth: 0,
-        borderRightWidth: 3,
-        borderLeftWidth: 3,
+        borderTopWidth: 3,
+        borderBottomWidth: 3,
+        borderRightWidth: 0,
+        borderLeftWidth: 0,
         borderColor: '$white',
         borderStyle: 'solid',
       },
