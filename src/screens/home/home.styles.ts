@@ -3,8 +3,7 @@ import { styled } from '@theme/theme';
 export const HeroSection = styled('section', {
   width: '100%',
   display: 'flex',
-  backgroundImage:
-    'url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/GABRIEL_VELLA_vs_ROMINHO_51.jpg/1200px-GABRIEL_VELLA_vs_ROMINHO_51.jpg")',
+  backgroundImage: 'url("/hero.jpg")',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   position: 'relative',
@@ -34,38 +33,46 @@ export const HeroSectionContent = styled('div', {
   flexDirection: 'column',
 });
 
-export const HeroSectionContentLogos = styled('div', {
+export const HeroSectionFooter = styled('div', {
   width: '100%',
+  position: 'absolute',
+  left: 0,
+  bottom: 0,
+  display: 'flex',
+  flexDirection: 'row',
+  pa: '$4',
+});
+
+export const HeroSectionFooterLogos = styled('div', {
   position: 'relative',
   display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
+  alignItems: 'flex-end',
+  justifyContent: 'flex-end',
   flexDirection: 'row',
-  gap: '$10',
+  gap: '$4',
+  flex: 1,
+});
+
+export const HeroSectionPhraseContent = styled('div', {
+  display: 'flex',
+  position: 'relative',
+  alignItems: 'center',
+  justifyContent: 'flex-end',
+  flex: 3,
 });
 
 export const HeroSectionPhrase = styled('p', {
   width: '100%',
-  maxWidth: 500,
   position: 'relative',
-  textAlign: 'center',
+  textAlign: 'left',
   color: '$white',
-  my: '$10',
   fontSize: '$4',
+  fontFamily: '$title',
+  pl: '$4',
 });
 
-export const HeroSectionButtons = styled('div', {
-  width: '100%',
-  display: 'flex',
-  flexDirection: 'row',
-  position: 'relative',
-  gap: '$4',
-  alignItems: 'center',
-  justifyContent: 'center',
-});
-
-export const HeroSectionContentLogo = styled('img', {
-  height: 220,
+export const HeroSectionLogo = styled('img', {
+  height: 50,
   objectFit: 'contain',
   objectPosition: 'center',
 });

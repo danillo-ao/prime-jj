@@ -14,11 +14,13 @@ export const colors = {
   black_belt: '#010101',
 
   // common
+  adult: '#26508F',
+  kids: '#BF6B2F',
+
   success: '#25CF2A',
   error: '#FE0202',
   danger: '#DC3545',
   warning: '#FF875A',
-  pendent: '#FF8C00',
   paid: '#25cf2a',
   overdue: '#FE646F',
   // text color

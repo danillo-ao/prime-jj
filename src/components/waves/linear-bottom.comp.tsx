@@ -3,7 +3,7 @@ import { getThemeColor } from '@theme/theme.utils';
 
 const WaveLinearBottom = () => {
   return (
-    <svg viewBox="0 0 1440 320">
+    <svg viewBox="0 0 1440 320" className="no-events">
       <path
         fill={getThemeColor('primary')}
         fillOpacity="1"

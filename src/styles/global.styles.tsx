@@ -10,8 +10,10 @@ export const globalStyles = globalCss({
   },
   a: {
     textDecoration: 'none',
+    cursor: 'pointer',
   },
   body: {
+    overflowX: 'hidden',
     height: '100%',
     minHeight: '100vh',
     display: 'flex',

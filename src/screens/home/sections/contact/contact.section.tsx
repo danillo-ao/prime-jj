@@ -51,21 +51,17 @@ const ContactSection = () => {
           <SectionGridDivisor />
           <SectionGridItem>
             <Styles.ContactOptionsCTAWrapper>
-              {/*<Styles.ContactOptionsLogoWrapper>*/}
-              {/*  <Styles.ContactOptionsLogo src="/cicero-logo.png" alt="" />*/}
-              {/*  <Styles.ContactOptionsLogo src="/prime-logo.png" alt="" />*/}
-              {/*</Styles.ContactOptionsLogoWrapper>*/}
-
               <Styles.ContactOptionsLabel>
                 Entre em contato para mais informações, para descobrir promoções
                 e tirar as suas dúvidas!
                 <br />
                 <br />
-                Agende uma aula experimental agora, e venha conhecer a academia!
+                Agende um treino experimental agora, e venha conhecer a
+                academia!
               </Styles.ContactOptionsLabel>
 
-              <a href={links.whatsapp} target="_blank">
-                <Button>Agendar aula experimental!</Button>
+              <a href={links.whatsapp_schedule} target="_blank">
+                <Button>Agendar treino experimental!</Button>
               </a>
             </Styles.ContactOptionsCTAWrapper>
           </SectionGridItem>

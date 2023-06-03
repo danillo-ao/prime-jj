@@ -2,6 +2,7 @@ import { styled } from '@theme/theme';
 
 export const Section = styled('section', {
   width: '100%',
+  position: 'relative',
 });
 
 export const SectionTitle = styled('h2', {
@@ -30,6 +31,7 @@ export const SectionGrid = styled('div', {
   flexDirection: 'row',
   gap: '$5',
   mt: '$5',
+  zIndex: 2,
 });
 
 export const SectionGridItem = styled('div', {

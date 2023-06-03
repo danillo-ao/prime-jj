@@ -3,9 +3,33 @@ import { styled } from '@theme/theme';
 export const GallerySection = styled('section', {
   width: '100%',
   position: 'relative',
-  bg: '$primary',
   mt: -5,
-  mb: -5,
+  my: 200,
+  py: 70,
+});
+
+export const GallerySectionBackground = styled('div', {
+  position: 'absolute',
+  width: '120%',
+  height: '100%',
+  left: '-10%',
+  top: '-0%',
+  transform: 'rotate(-3deg)',
+  bg: '$grey800',
+
+  '&:before': {
+    content: '',
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+    left: 0,
+    top: 0,
+    backgroundImage: 'url("/bjj2.jpg")',
+    backgroundSize: 'cover',
+    filter: 'grayscale(100%)',
+    opacity: 0.2,
+    backgroundPosition: 'center',
+  },
 });
 
 export const GalleryContent = styled('div', {

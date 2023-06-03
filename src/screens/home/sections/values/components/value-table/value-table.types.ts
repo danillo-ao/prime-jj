@@ -1,5 +1,5 @@
 export interface ValueTableProps {
-  name?: string;
+  name: string;
   value?: number;
   installments?: number;
   duration?: string;

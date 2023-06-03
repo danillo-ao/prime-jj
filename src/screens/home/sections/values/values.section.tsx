@@ -10,7 +10,7 @@ import { links } from '@/configs/links.config';
 
 const ValuesSection = () => {
   return (
-    <Section css={{ my: -40 }}>
+    <Section css={{ my: -40, zIndex: 1 }}>
       <WaveTop />
       <Styles.ValuesSectionContent>
         <PageWrapper>
@@ -73,6 +73,7 @@ const ValuesSection = () => {
           {/**/}
         </PageWrapper>
       </Styles.ValuesSectionContent>
+
       <WaveBottom />
     </Section>
   );

@@ -26,23 +26,28 @@ const AboutSection = () => {
           <SectionGridItem>
             <SectionTitle css={{ mb: '$4' }}>Sobre o jiu jitsu</SectionTitle>
             <Typography>
-              O Brazilian Jiu-Jitsu (BJJ) é uma forma de arte marcial brasileira
-              que se concentra no combate no solo e no uso de alavancas e
-              estrangulamentos para derrotar oponentes. Desenvolvido pela
-              família Gracie no início do século XX, o BJJ permite que
-              indivíduos de menor porte possam se defender efetivamente contra
-              adversários maiores e mais fortes.
+              O jiu-jitsu é uma arte marcial japonesa que se desenvolveu a
+              partir de técnicas de combate samurai. Foi introduzido no Brasil
+              no início do século XX pelo mestre Mitsuyo Maeda, também conhecido
+              como Conde Koma. No Brasil, o jiu-jitsu se desenvolveu e se tornou
+              conhecido como Brazilian Jiu-Jitsu (BJJ), graças aos esforços da
+              família Gracie.
               <br />
-              <br />
-              Além de sua eficácia em situações de autodefesa, o BJJ oferece
-              benefícios físicos, mentais e promove disciplina, autocontrole e
-              desenvolvimento pessoal. Hoje, o BJJ é praticado em todo o mundo
-              como uma forma de arte marcial competitiva, autodefesa e uma
-              maneira de preservar a tradição e a história dessa arte milenar.
+              <br />O BJJ é conhecido por seu foco no combate no solo e no uso
+              de alavancas e estrangulamentos para dominar o oponente,
+              independentemente de seu tamanho ou força. O objetivo principal é
+              permitir que uma pessoa menor e mais fraca defenda-se efetivamente
+              contra um oponente maior e mais forte. O BJJ é praticado tanto
+              como uma arte marcial competitiva quanto como uma forma de defesa
+              pessoal.
             </Typography>
           </SectionGridItem>
           <SectionGridDivisor />
-          <SectionGridItem />
+          <SectionGridItem>
+            <Styles.AboutHistoryImageContent>
+              <Styles.AboutHistoryImage src="/bjj.jpg" />
+            </Styles.AboutHistoryImageContent>
+          </SectionGridItem>
         </SectionGrid>
 
         <SectionTitle css={{ mb: '$4' }}>Beneficios</SectionTitle>

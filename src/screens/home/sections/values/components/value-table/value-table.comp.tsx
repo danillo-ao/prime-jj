@@ -3,6 +3,7 @@ import React from 'react';
 import * as Styles from './value-table.styles';
 import { ValueTableProps } from './value-table.types';
 import { Button } from '@components/button';
+import { links } from '@/configs/links.config';
 
 const ValueTable: React.FC<ValueTableProps> = ({
   value,
@@ -69,7 +70,9 @@ const ValueTable: React.FC<ValueTableProps> = ({
       </Styles.ValueTableBody>
       <Styles.ValueTableFooter>
         <Styles.ValueTableBodyLine css={{ justifyContent: 'center' }}>
-          <Button css={{ bg: '$primary' }}>Adquirir plano {name}</Button>
+          <a href={links.whatsapp_plan(name)} target="_blank">
+            <Button css={{ bg: '$primary' }}>Adquirir plano {name}</Button>
+          </a>
         </Styles.ValueTableBodyLine>
       </Styles.ValueTableFooter>
     </Styles.ValueTableContent>

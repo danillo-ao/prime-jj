@@ -1,6 +1,4 @@
 import React from 'react';
-import WaveLinearTop from '@components/waves/linear-top.comp';
-import WaveLinearBottom from '@components/waves/linear-bottom.comp';
 import { X, ChevronRight, ChevronLeft } from 'react-feather';
 
 import { PageWrapper } from '@components/page';
@@ -41,8 +39,9 @@ const GallerySection = () => {
 
   return (
     <>
-      <WaveLinearTop />
+      {/*<WaveLinearTop />*/}
       <Styles.GallerySection>
+        <Styles.GallerySectionBackground />
         <PageWrapper>
           <Styles.GalleryContent>
             {/**/}
@@ -62,7 +61,7 @@ const GallerySection = () => {
           </Styles.GalleryContent>
         </PageWrapper>
       </Styles.GallerySection>
-      <WaveLinearBottom />
+      {/*<WaveLinearBottom />*/}
 
       <Styles.GalleryFullScreen visible={visible}>
         <Styles.GalleryFullBackdrop onClick={close} />

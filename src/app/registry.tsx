@@ -20,6 +20,18 @@ export default function StitchesRegistry() {
         href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet"
       />
+
+      <meta property="og:title" content="Prime JiuJitsu" />
+      <meta
+        property="og:description"
+        content="Academia de JiuJitsu em Santo André"
+      />
+      <meta property="og:image" content="/prime-logo.png" />
+      <meta
+        name="keywords"
+        content="BJJ, Jiu Jitsu, Prime, Cicero Costha, Santo André"
+      />
+      <meta name="author" content="Danillo Alves de Oliveira" />
     </head>
   );
 }

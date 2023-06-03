@@ -5,15 +5,14 @@ import { Header } from '@components/header';
 import { BlackBelt } from '@components/black-belt';
 
 import * as Styles from './home.styles';
-import { ScheduleSection } from '@/screens/home/sections/schedule.section';
-import { LocationSection } from '@/screens/home/sections/location.section';
 import { AboutSection } from '@screens/home/sections/about/about.section';
 import { GallerySection } from '@screens/home/sections/gallery/gallery.section';
 import { ContactSection } from '@screens/home/sections/contact/contact.section';
 import { phrases } from '@/configs/phrases.config';
-import { Button } from '@components/button';
-import { links } from '@/configs/links.config';
 import { ValuesSection } from '@screens/home/sections/values/values.section';
+import { ScheduleSection } from '@screens/home/sections/schedule/schedule.section';
+import { LocationSection } from '@screens/home/sections/location/location.section';
+import { Footer } from '@components/footer';
 
 const HomeScreen: React.FC<HomeScreenProps> = () => {
   const [phrase, setPhrase] = React.useState('');
@@ -29,23 +28,28 @@ const HomeScreen: React.FC<HomeScreenProps> = () => {
 
       <Styles.HeroSection>
         <Styles.HeroSectionContent>
-          <Styles.HeroSectionContentLogos>
-            <Styles.HeroSectionContentLogo src="/prime-logo.png" />
-            <Styles.HeroSectionContentLogo src="/cicero-logo.png" />
-          </Styles.HeroSectionContentLogos>
+          {/**/}
+          <Styles.HeroSectionFooter>
+            <PageWrapper css={{ flexDirection: 'row' }}>
+              <Styles.HeroSectionPhraseContent>
+                <Styles.HeroSectionPhrase>"{phrase}"</Styles.HeroSectionPhrase>
+              </Styles.HeroSectionPhraseContent>
 
-          <Styles.HeroSectionPhrase>"{phrase}"</Styles.HeroSectionPhrase>
+              <Styles.HeroSectionFooterLogos>
+                <Styles.HeroSectionLogo src="/prime-logo.png" />
+                <Styles.HeroSectionLogo src="/cicero-logo.png" />
+              </Styles.HeroSectionFooterLogos>
+            </PageWrapper>
+          </Styles.HeroSectionFooter>
 
-          <Styles.HeroSectionButtons>
-            <a href="#contato" target="_blank">
-              <Button css={{ bg: '$primary' }}>Entre em contato</Button>
-            </a>
-            <a href={links.whatsapp} target="_blank">
-              <Button css={{ bg: '$primary' }}>
-                Agende uma aula experimental!
-              </Button>
-            </a>
-          </Styles.HeroSectionButtons>
+          {/*<Styles.HeroSectionPhrase>"{phrase}"</Styles.HeroSectionPhrase>*/}
+
+          {/*<Styles.HeroSectionButtons>*/}
+          {/*  <a href="#contato" target="_blank">*/}
+          {/*    <Button css={{ bg: '$primary' }}>Entre em contato</Button>*/}
+          {/*  </a>*/}
+
+          {/*</Styles.HeroSectionButtons>*/}
         </Styles.HeroSectionContent>
       </Styles.HeroSection>
 
@@ -70,7 +74,10 @@ const HomeScreen: React.FC<HomeScreenProps> = () => {
       <ValuesSection />
 
       <ScheduleSection />
+
       <LocationSection />
+
+      <Footer />
     </Page>
   );
 };
