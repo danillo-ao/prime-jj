@@ -68,7 +68,6 @@ export const HeroSectionPhrase = styled('p', {
   color: '$white',
   fontSize: '$4',
   fontFamily: '$title',
-  pl: '$4',
 });
 
 export const HeroSectionLogo = styled('img', {

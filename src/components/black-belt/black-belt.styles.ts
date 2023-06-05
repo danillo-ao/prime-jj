@@ -20,7 +20,6 @@ export const BlackBeltRed = styled('div', {
   borderWidth: 0,
   borderRightWidth: '5px',
   borderLeftWidth: '5px',
-  marginLeft: '10%',
   backgroundColor: '$red600',
   gap: '$2',
   px: '$4',

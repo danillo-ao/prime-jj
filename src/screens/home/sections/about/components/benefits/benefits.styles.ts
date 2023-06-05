@@ -27,9 +27,15 @@ export const BenefitsCardInner = styled('div', {
 
 export const BenefitsCardIconsContent = styled('div', {
   position: 'absolute',
-  mb: '$4',
   right: '$7',
   top: '$7',
+
+  '@1045': {
+    '& svg': {
+      width: 25,
+      height: 25,
+    },
+  },
 });
 
 export const BenefitsCardTitle = styled('h4', {
@@ -41,6 +47,10 @@ export const BenefitsCardTitle = styled('h4', {
   fontSize: '$5',
   color: '$white',
   mb: '$5',
+
+  '@1045': {
+    fontSize: '$3',
+  },
 });
 
 export const BenefitsCardDescription = styled('p', {
@@ -49,4 +59,9 @@ export const BenefitsCardDescription = styled('p', {
   color: '$white',
   lineHeight: '$6',
   opacity: 0.7,
+
+  '@1045': {
+    fontSize: '$2',
+    lineHeight: '$5',
+  },
 });

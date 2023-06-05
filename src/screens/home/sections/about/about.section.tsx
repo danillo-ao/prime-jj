@@ -22,7 +22,7 @@ const AboutSection = () => {
   return (
     <Section css={{ pt: 70, mb: -50 }}>
       <PageWrapper>
-        <SectionGrid css={{ mb: '80px' }}>
+        <SectionGrid css={{ mb: '80px', '@800': { mb: '40px' } }}>
           <SectionGridItem>
             <SectionTitle css={{ mb: '$4' }}>Sobre o jiu jitsu</SectionTitle>
             <Typography>
@@ -44,7 +44,9 @@ const AboutSection = () => {
           </SectionGridItem>
           <SectionGridDivisor />
           <SectionGridItem>
-            <Styles.AboutHistoryImageContent>
+            <Styles.AboutHistoryImageContent
+              css={{ '@800': { display: 'none' } }}
+            >
               <Styles.AboutHistoryImage src="/bjj.jpg" />
             </Styles.AboutHistoryImageContent>
           </SectionGridItem>

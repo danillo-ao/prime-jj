@@ -32,6 +32,10 @@ export const SectionGrid = styled('div', {
   gap: '$5',
   mt: '$5',
   zIndex: 2,
+
+  '@800': {
+    flexDirection: 'column',
+  },
 });
 
 export const SectionGridItem = styled('div', {

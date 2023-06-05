@@ -29,4 +29,12 @@ export const AboutBenefitsCardsWrapper = styled('div', {
   gridTemplateColumns: 'repeat(3, 1fr)',
   gridColumnGap: '$5',
   gridRowGap: '$5',
+
+  '@900': {
+    gridTemplateColumns: 'repeat(2, 1fr)',
+  },
+
+  '@600': {
+    gridTemplateColumns: 'repeat(1, 1fr)',
+  },
 });

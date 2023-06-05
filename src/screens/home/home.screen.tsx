@@ -32,7 +32,9 @@ const HomeScreen: React.FC<HomeScreenProps> = () => {
           <Styles.HeroSectionFooter>
             <PageWrapper css={{ flexDirection: 'row' }}>
               <Styles.HeroSectionPhraseContent>
-                <Styles.HeroSectionPhrase>"{phrase}"</Styles.HeroSectionPhrase>
+                <Styles.HeroSectionPhrase>
+                  “ {phrase} ”
+                </Styles.HeroSectionPhrase>
               </Styles.HeroSectionPhraseContent>
 
               <Styles.HeroSectionFooterLogos>

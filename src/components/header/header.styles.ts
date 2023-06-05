@@ -20,6 +20,16 @@ export const HeaderContent = styled('div', {
     background: 'linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(0,0,0,1) 57%)',
     transition: '0.3s',
     transform: 'translateY(-100%)',
+
+    '@800': {
+      height: '150%',
+      background: 'linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(0,0,0,1) 30%)',
+    },
+  },
+
+  '@800': {
+    height: 'auto',
+    minHeight: '$units$headerHeight',
   },
 
   variants: {
@@ -42,6 +52,10 @@ export const HeaderInner = styled('div', {
   justifyContent: 'center',
   flex: 1,
   py: '$4',
+
+  '@800': {
+    justifyContent: 'space-between',
+  },
 });
 
 export const HeaderMenuOptions = styled('div', {
@@ -51,6 +65,43 @@ export const HeaderMenuOptions = styled('div', {
   justifyContent: 'flex-end',
   gap: '$3',
   px: '$4',
+
+  '@800': {
+    flexDirection: 'column',
+    mt: '$units$headerHeight',
+  },
+
+  variants: {
+    visible: {
+      true: {
+        '@800': {
+          display: 'flex',
+        },
+      },
+      false: {
+        '@800': {
+          display: 'none',
+        },
+      },
+    },
+  },
+});
+
+export const HeaderMenuOptionAction = styled('div', {
+  position: 'relative',
+  display: 'none',
+
+  '@800': {
+    display: 'flex',
+    bg: '$primary',
+    cursor: 'pointer',
+    pa: '$2',
+    borderRadius: '$1',
+
+    position: 'absolute',
+    right: 0,
+    top: '$3',
+  },
 });
 
 export const HeaderMenuOption = styled('button', {
@@ -82,4 +133,10 @@ export const HeaderMenuLabel = styled('h1', {
   padding: '$0',
   lineHeight: '$7-5',
   pt: '4px',
+
+  '@800': {
+    position: 'absolute',
+    left: 0,
+    top: '$4',
+  },
 });
