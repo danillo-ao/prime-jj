@@ -5,7 +5,7 @@ const WaveLinearTop = () => {
   return (
     <svg viewBox="0 0 1440 320" className="no-events">
       <path
-        fill={getThemeColor('primary')}
+        fill={getThemeColor('grey800')}
         fillOpacity="1"
         d="M0,256L1440,192L1440,320L0,320Z"
       />

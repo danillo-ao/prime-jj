@@ -3,6 +3,7 @@ import { styled } from '@theme/theme';
 export const Section = styled('section', {
   width: '100%',
   position: 'relative',
+  overflowX: 'hidden',
 });
 
 export const SectionTitle = styled('h2', {
@@ -12,15 +13,6 @@ export const SectionTitle = styled('h2', {
   color: '$primary',
   fontSize: '$title',
   fontFamily: '$title',
-  pa: '$0',
-});
-
-export const SectionSubtitle = styled('h3', {
-  width: '100%',
-  textAlign: 'center',
-  textTransform: 'uppercase',
-  color: '$secondary',
-  fontSize: '$subtitle',
   pa: '$0',
 });
 

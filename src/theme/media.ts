@@ -1,11 +1,16 @@
 export const media = {
+  350: '(max-width: 350px)',
+  400: '(max-width: 400px)',
   480: '(max-width: 480px)',
   500: '(max-width: 500px)',
+  560: '(max-width: 560px)',
   600: '(max-width: 600px)',
+  700: '(max-width: 700px)',
   768: '(max-width: 768px)',
   800: '(max-width: 800px)',
   900: '(max-width: 900px)',
   1000: '(max-width: 1000px)',
   1045: '(max-width: 1045px)',
   1200: '(max-width: 1200px)',
+  mobile: '(max-width: 600px)',
 };

@@ -16,6 +16,13 @@ export const FooterSections = styled('div', {
   flexDirection: 'row',
   gap: '$4',
   mb: '$5',
+
+  '@600': {
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: '$10',
+  },
 });
 
 export const FooterDatas = styled('div', {
@@ -34,6 +41,10 @@ export const FooterDatasLine = styled('div', {
   display: 'flex',
   flexDirection: 'row',
   opacity: 0.5,
+
+  '@500': {
+    flexDirection: 'column',
+  },
 });
 
 export const FooterName = styled('p', {
@@ -45,6 +56,11 @@ export const FooterName = styled('p', {
   fontFamily: '$title',
   px: '$4',
   fontSize: '$2',
+
+  '@500': {
+    justifyContent: 'center',
+    textAlign: 'center',
+  },
 });
 
 export const FooterDev = styled('p', {
@@ -57,15 +73,26 @@ export const FooterDev = styled('p', {
   fontFamily: '$title',
   px: '$4',
   fontSize: '$2',
+
+  '@500': {
+    justifyContent: 'center',
+  },
 });
 
 export const FooterLogo = styled('div', {
   position: 'relative',
   display: 'flex',
   flexDirection: 'row',
+  gap: '$5',
 
   '& img': {
-    height: 150,
+    height: 100,
+  },
+
+  '@600': {
+    '& img': {
+      height: 100,
+    },
   },
 });
 

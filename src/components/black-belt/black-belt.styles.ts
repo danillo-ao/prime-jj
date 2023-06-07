@@ -8,6 +8,10 @@ export const BlackBelt = styled('div', {
   display: 'flex',
   flexDirection: 'row',
   bg: '$black',
+
+  '@500': {
+    height: 35,
+  },
 });
 
 export const BlackBeltRed = styled('div', {
@@ -23,6 +27,12 @@ export const BlackBeltRed = styled('div', {
   backgroundColor: '$red600',
   gap: '$2',
   px: '$4',
+
+  '@500': {
+    width: 100,
+    borderRightWidth: '3px',
+    borderLeftWidth: '3px',
+  },
 });
 
 export const BlackBeltGrade = styled('div', {
@@ -30,4 +40,8 @@ export const BlackBeltGrade = styled('div', {
   height: '100%',
   display: 'flex',
   backgroundColor: '$white',
+
+  '@500': {
+    width: 4,
+  },
 });

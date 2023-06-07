@@ -4,6 +4,8 @@ import { X, ChevronRight, ChevronLeft } from 'react-feather';
 import { PageWrapper } from '@components/page';
 
 import * as Styles from './gallery.styles';
+import WaveLinearTop from '@components/waves/linear-top.comp';
+import WaveLinearBottom from '@components/waves/linear-bottom.comp';
 
 const gallery = [
   'https://s3.amazonaws.com/cdn.danilloliveiradev/350221862_637364385081619_8488584183881472055_n.jpg',
@@ -39,9 +41,8 @@ const GallerySection = () => {
 
   return (
     <>
-      {/*<WaveLinearTop />*/}
-      <Styles.GallerySection>
-        <Styles.GallerySectionBackground />
+      <WaveLinearTop />
+      <Styles.GallerySection id="gallery">
         <PageWrapper>
           <Styles.GalleryContent>
             {/**/}
@@ -61,7 +62,7 @@ const GallerySection = () => {
           </Styles.GalleryContent>
         </PageWrapper>
       </Styles.GallerySection>
-      {/*<WaveLinearBottom />*/}
+      <WaveLinearBottom />
 
       <Styles.GalleryFullScreen visible={visible}>
         <Styles.GalleryFullBackdrop onClick={close} />

@@ -41,6 +41,13 @@ export const HeroSectionFooter = styled('div', {
   display: 'flex',
   flexDirection: 'row',
   pa: '$4',
+
+  '@800': {
+    width: '100%',
+    height: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
 });
 
 export const HeroSectionFooterLogos = styled('div', {
@@ -51,6 +58,10 @@ export const HeroSectionFooterLogos = styled('div', {
   flexDirection: 'row',
   gap: '$4',
   flex: 1,
+
+  '@800': {
+    justifyContent: 'center',
+  },
 });
 
 export const HeroSectionPhraseContent = styled('div', {
@@ -68,12 +79,21 @@ export const HeroSectionPhrase = styled('p', {
   color: '$white',
   fontSize: '$4',
   fontFamily: '$title',
+
+  '@800': {
+    textAlign: 'center',
+    mb: '$5',
+  },
 });
 
 export const HeroSectionLogo = styled('img', {
   height: 50,
   objectFit: 'contain',
   objectPosition: 'center',
+
+  '@800': {
+    height: 100,
+  },
 });
 
 export const BlackBeltContent = styled('div', {
@@ -106,4 +126,8 @@ export const BlackBeltName = styled('p', {
   textTransform: 'uppercase',
   opacity: 0.5,
   fontFamily: '$title',
+
+  '@350': {
+    fontSize: '$2',
+  },
 });

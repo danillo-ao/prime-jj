@@ -45,7 +45,7 @@ const hours: { [day: string]: ScheduleHours[] } = {
 
 const ScheduleSection = () => {
   return (
-    <Section css={{ mb: 100 }}>
+    <Section css={{ mb: 100 }} id="schedule">
       <PageWrapper>
         <SectionTitle>Horários</SectionTitle>
 

@@ -20,7 +20,7 @@ import FriendsIcon from '@components/icons/svg/friends.icon';
 
 const AboutSection = () => {
   return (
-    <Section css={{ pt: 70, mb: -50 }}>
+    <Section css={{ pt: 70 }} id="about">
       <PageWrapper>
         <SectionGrid css={{ mb: '80px', '@800': { mb: '40px' } }}>
           <SectionGridItem>

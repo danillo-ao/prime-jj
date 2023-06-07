@@ -11,6 +11,8 @@ const Header: React.FC<HeaderProps> = () => {
 
   const handleScroll = () => {
     const _scrolled = window.pageYOffset > 125;
+    setOpened(false);
+
     if (_scrolled !== scrolled) {
       setScrolled(_scrolled);
     }
@@ -32,12 +34,24 @@ const Header: React.FC<HeaderProps> = () => {
           <Styles.HeaderMenuLabel>PRIME</Styles.HeaderMenuLabel>
 
           <Styles.HeaderMenuOptions visible={opened}>
-            <Styles.HeaderMenuOption>Sobre</Styles.HeaderMenuOption>
-            <Styles.HeaderMenuOption>Galeria</Styles.HeaderMenuOption>
-            <Styles.HeaderMenuOption>Contato</Styles.HeaderMenuOption>
-            <Styles.HeaderMenuOption>Valores</Styles.HeaderMenuOption>
-            <Styles.HeaderMenuOption>Horários</Styles.HeaderMenuOption>
-            <Styles.HeaderMenuOption>Onde Estamos</Styles.HeaderMenuOption>
+            <a className="menu-link" href="#about">
+              <Styles.HeaderMenuOption>Sobre</Styles.HeaderMenuOption>
+            </a>
+            <a className="menu-link" href="#gallery">
+              <Styles.HeaderMenuOption>Galeria</Styles.HeaderMenuOption>
+            </a>
+            <a className="menu-link" href="#contact">
+              <Styles.HeaderMenuOption>Contato</Styles.HeaderMenuOption>
+            </a>
+            <a className="menu-link" href="#values">
+              <Styles.HeaderMenuOption>Valores</Styles.HeaderMenuOption>
+            </a>
+            <a className="menu-link" href="#schedule">
+              <Styles.HeaderMenuOption>Horários</Styles.HeaderMenuOption>
+            </a>
+            <a className="menu-link" href="#location">
+              <Styles.HeaderMenuOption>Onde Estamos</Styles.HeaderMenuOption>
+            </a>
           </Styles.HeaderMenuOptions>
 
           <Styles.HeaderMenuOptionAction

@@ -17,6 +17,10 @@ export const ContactOptionsCTAWrapper = styled('div', {
   flexDirection: 'column',
   flex: 1,
   margin: '0 auto',
+
+  '@900': {
+    width: '100%',
+  },
 });
 
 export const ContactOptionsLogoWrapper = styled('div', {

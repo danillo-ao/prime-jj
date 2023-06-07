@@ -23,6 +23,10 @@ export const BenefitsCardInner = styled('div', {
     transform: 'translateY(-5px)',
     boxShadow: '0px 0px 15px rgba(1, 173, 238, 0.5)',
   },
+
+  '@mobile': {
+    pa: '$4',
+  },
 });
 
 export const BenefitsCardIconsContent = styled('div', {
@@ -34,6 +38,15 @@ export const BenefitsCardIconsContent = styled('div', {
     '& svg': {
       width: 25,
       height: 25,
+    },
+  },
+
+  '@mobile': {
+    top: '$4',
+
+    '& svg': {
+      width: 20,
+      height: 20,
     },
   },
 });
@@ -50,6 +63,10 @@ export const BenefitsCardTitle = styled('h4', {
 
   '@1045': {
     fontSize: '$3',
+  },
+
+  '@mobile': {
+    mb: '$3',
   },
 });
 

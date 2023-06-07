@@ -17,6 +17,10 @@ export const ContactOptionContent = styled('a', {
     transform: 'translateY(-5px)',
     boxShadow: '0px 0px 10px rgba(1, 173, 238, 0.5), 0 0 0 1px #01adee',
   },
+
+  '@900': {
+    width: '100%',
+  },
 });
 
 export const ContactOptionIcon = styled('div', {

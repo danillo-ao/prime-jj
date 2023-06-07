@@ -69,6 +69,13 @@ export const HeaderMenuOptions = styled('div', {
   '@800': {
     flexDirection: 'column',
     mt: '$units$headerHeight',
+
+    '& a': {
+      width: 'auto',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
   },
 
   variants: {

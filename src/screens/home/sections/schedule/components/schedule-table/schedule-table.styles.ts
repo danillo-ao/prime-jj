@@ -19,6 +19,11 @@ export const ScheduleTableHeader = styled('div', {
   textTransform: 'lowercase',
   fontWeight: 'bold',
   fontSize: '$4',
+
+  '@700': {
+    fontSize: '$3',
+    py: '$2',
+  },
 });
 
 export const ScheduleTableBody = styled('div', {
@@ -62,5 +67,9 @@ export const ScheduleTableHour = styled('div', {
       adult: { bg: '$adult' },
       kids: { bg: '$kids' },
     },
+  },
+
+  '@700': {
+    fontSize: '$2',
   },
 });

@@ -26,11 +26,16 @@ const HomeScreen: React.FC<HomeScreenProps> = () => {
     <Page>
       <Header />
 
-      <Styles.HeroSection>
+      <Styles.HeroSection id="home">
         <Styles.HeroSectionContent>
           {/**/}
           <Styles.HeroSectionFooter>
-            <PageWrapper css={{ flexDirection: 'row' }}>
+            <PageWrapper
+              css={{
+                flexDirection: 'row',
+                '@800': { flexDirection: 'column' },
+              }}
+            >
               <Styles.HeroSectionPhraseContent>
                 <Styles.HeroSectionPhrase>
                   “ {phrase} ”
@@ -43,15 +48,6 @@ const HomeScreen: React.FC<HomeScreenProps> = () => {
               </Styles.HeroSectionFooterLogos>
             </PageWrapper>
           </Styles.HeroSectionFooter>
-
-          {/*<Styles.HeroSectionPhrase>"{phrase}"</Styles.HeroSectionPhrase>*/}
-
-          {/*<Styles.HeroSectionButtons>*/}
-          {/*  <a href="#contato" target="_blank">*/}
-          {/*    <Button css={{ bg: '$primary' }}>Entre em contato</Button>*/}
-          {/*  </a>*/}
-
-          {/*</Styles.HeroSectionButtons>*/}
         </Styles.HeroSectionContent>
       </Styles.HeroSection>
 

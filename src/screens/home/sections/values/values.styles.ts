@@ -15,6 +15,20 @@ export const ValuesTableContent = styled('div', {
   gridColumnGap: '$8',
   gridRowGap: '$5',
   mt: '$8',
+
+  '@900': {
+    gridColumnGap: '$2',
+  },
+
+  '@800': {
+    gridTemplateColumns: 'repeat(2, 1fr)',
+    gridColumnGap: '$5',
+  },
+
+  '@560': {
+    gridTemplateColumns: 'repeat(1, 1fr)',
+    gridColumnGap: '$5',
+  },
 });
 
 export const ValuesTableFooter = styled('div', {

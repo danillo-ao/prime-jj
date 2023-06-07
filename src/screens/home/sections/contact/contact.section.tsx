@@ -21,7 +21,7 @@ const iconSize = 25;
 
 const ContactSection = () => {
   return (
-    <Section css={{ mt: -100 }}>
+    <Section id="contact">
       <PageWrapper>
         <SectionTitle>Entre em contato</SectionTitle>
 

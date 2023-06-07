@@ -2,12 +2,24 @@ import React from 'react';
 
 import * as Styles from './location.styles';
 import { PageWrapper } from '@components/page';
-import { SectionTitle } from '@screens/home/sections/section.styles';
+import { Section, SectionTitle } from '@screens/home/sections/section.styles';
+import { Button } from '@components/button';
+import { links } from '@/configs/links.config';
+
 const LocationSection = () => {
   return (
-    <section>
+    <Section id="location">
       <PageWrapper>
         <SectionTitle>Onde estamos</SectionTitle>
+
+        <Styles.LocationMobileAction>
+          <a href={links.waze} target="_blank">
+            <Button>Chegar com WAZE</Button>
+          </a>
+          <a href={links.uber} target="_blank">
+            <Button>Chegar com UBER</Button>
+          </a>
+        </Styles.LocationMobileAction>
       </PageWrapper>
       <Styles.LocationMapContent>
         <iframe
@@ -20,7 +32,7 @@ const LocationSection = () => {
           style={{ width: '100%' }}
         />
       </Styles.LocationMapContent>
-    </section>
+    </Section>
   );
 };
 

@@ -10,6 +10,11 @@ export const ScheduleTableContent = styled('div', {
   gridRowGap: '$2',
   my: '$4',
   mx: 'auto',
+
+  '@mobile': {
+    gridTemplateColumns: 'repeat(3, 1fr)',
+    gridRowGap: '$4',
+  },
 });
 
 export const ScheduleTableLegends = styled('div', {
@@ -26,6 +31,12 @@ export const ScheduleTableLegend = styled('div', {
   flexDirection: 'row',
   gap: '$2',
   color: '$white',
+  alignItems: 'center',
+  justifyContent: 'center',
+
+  '@700': {
+    fontSize: '$2',
+  },
 });
 
 export const ScheduleTableLegendBadge = styled('div', {

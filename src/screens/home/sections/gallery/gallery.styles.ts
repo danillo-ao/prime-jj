@@ -3,9 +3,7 @@ import { styled } from '@theme/theme';
 export const GallerySection = styled('section', {
   width: '100%',
   position: 'relative',
-  mt: -5,
-  my: 200,
-  py: 70,
+  bg: '$grey800',
 });
 
 export const GallerySectionBackground = styled('div', {
@@ -16,20 +14,6 @@ export const GallerySectionBackground = styled('div', {
   top: '-0%',
   transform: 'rotate(-3deg)',
   bg: '$grey800',
-
-  '&:before': {
-    content: '',
-    width: '100%',
-    height: '100%',
-    position: 'absolute',
-    left: 0,
-    top: 0,
-    backgroundImage: 'url("/bjj2.jpg")',
-    backgroundSize: 'cover',
-    filter: 'grayscale(100%)',
-    opacity: 0.2,
-    backgroundPosition: 'center',
-  },
 });
 
 export const GalleryContent = styled('div', {
@@ -44,6 +28,10 @@ export const GalleryGrid = styled('div', {
   gridTemplateColumns: 'repeat(4, 1fr)',
   gridColumnGap: '$5',
   gridRowGap: '$5',
+
+  '@800': {
+    gridTemplateColumns: 'repeat(2, 1fr)',
+  },
 });
 
 export const GalleryImage = styled('img', {
@@ -62,8 +50,8 @@ export const GalleryImage = styled('img', {
 });
 
 export const GalleryFullScreen = styled('div', {
-  width: '100vw',
-  height: '100vh',
+  width: '100%',
+  height: '100%',
   position: 'fixed',
   left: 0,
   top: 0,
@@ -136,6 +124,10 @@ export const GalleryFullImageContentBodyAction = styled('div', {
   justifyContent: 'center',
 
   zIndex: '$2',
+
+  '@600': {
+    display: 'none',
+  },
 });
 
 export const GalleryFullImageContentBodyImageContent = styled('div', {

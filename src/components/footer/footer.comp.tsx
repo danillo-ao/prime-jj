@@ -17,16 +17,27 @@ const Footer: React.FC = () => {
         <Styles.FooterSections>
           <Styles.FooterLogo>
             <img src="/prime-logo.png" alt="prime-logo" />
+            <img src="/cicero-logo.png" alt="cicero-logo" />
           </Styles.FooterLogo>
 
           <Styles.FooterColumn>
             <Styles.FooterTitle>Menu</Styles.FooterTitle>
             <Styles.FooterColumnBody>
-              <Styles.FooterColumnLink>Sobre</Styles.FooterColumnLink>
-              <Styles.FooterColumnLink>Galeria</Styles.FooterColumnLink>
-              <Styles.FooterColumnLink>Contato</Styles.FooterColumnLink>
-              <Styles.FooterColumnLink>Valores</Styles.FooterColumnLink>
-              <Styles.FooterColumnLink>Horários</Styles.FooterColumnLink>
+              <Styles.FooterColumnLink className="menu-link" href="#about">
+                Sobre
+              </Styles.FooterColumnLink>
+              <Styles.FooterColumnLink className="menu-link" href="#gallery">
+                Galeria
+              </Styles.FooterColumnLink>
+              <Styles.FooterColumnLink className="menu-link" href="#contact">
+                Contato
+              </Styles.FooterColumnLink>
+              <Styles.FooterColumnLink className="menu-link" href="#values">
+                Valores
+              </Styles.FooterColumnLink>
+              <Styles.FooterColumnLink className="menu-link" href="#schedule">
+                Horários
+              </Styles.FooterColumnLink>
             </Styles.FooterColumnBody>
           </Styles.FooterColumn>
           <Styles.FooterColumn>
